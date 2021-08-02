@@ -42,7 +42,8 @@ const NavigateCard = () => {
                 top: 15,
                 width: '100%',
                 zIndex: 10,
-                marginBottom: 10,
+                marginBottom: 24,
+                backgroundColor: '#E5E7EB',
               },
               textInput: {
                 fontSize: 15,
@@ -64,9 +65,10 @@ const NavigateCard = () => {
             styles={{
               container: {
                 flex: 0,
-                top: 15,
                 width: '100%',
-                zIndex: 10,
+                borderColor: '#E5E7EB',
+                borderWidth: 1,
+                backgroundColor: '#E5E7EB',
               },
               textInput: {
                 fontSize: 15,
@@ -96,6 +98,7 @@ const NavigateCard = () => {
             }}
             onFail={e => {
               console.log(e, 'eeeeeee');
+              dispatch(setDestination(null));
             }}>
             <TouchableOpacity
               onPress={() => {
