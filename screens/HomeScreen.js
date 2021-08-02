@@ -121,6 +121,7 @@ const HomeScreen = ({navigation}) => {
           debounce={0}
           onPress={(data, details = null) => {
             if (data?.geometry) {
+              // Code will execute if user has selected current location
               dispatch(
                 setOrigin({
                   location: data?.geometry.location,
@@ -146,7 +147,7 @@ const HomeScreen = ({navigation}) => {
           onFail={e => {
             console.log(e, 'eeeeeee');
           }}
-          currentLocation={false}
+          currentLocation={false} // keeping current location option off
           currentLocationLabel={`Current location`}>
           <TouchableOpacity
             onPress={() => {

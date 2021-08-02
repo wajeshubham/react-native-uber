@@ -1,9 +1,8 @@
 import {useNavigation} from '@react-navigation/native';
 import {createStackNavigator} from '@react-navigation/stack';
 import React from 'react';
-import {StyleSheet, Text, TouchableOpacity, View} from 'react-native';
+import {StyleSheet, TouchableOpacity, View} from 'react-native';
 import {Icon} from 'react-native-elements/dist/icons/Icon';
-import {Swipeable} from 'react-native-gesture-handler';
 import {useDispatch} from 'react-redux';
 import tw from 'tailwind-react-native-classnames';
 import Map from '../components/Map';
