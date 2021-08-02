@@ -1,3 +1,6 @@
+DEMO: https://www.youtube.com/watch?v=RfjaRZzbQEQ
+
+
 look for `.envsample` in root directory and add your google api key in `.env` file
 
 Go to `android/app.src/main/appAndroidManifest.xml`, look for `ADD_YOU_GOOGLE_API_KEY_HERE` and paste your api key there
