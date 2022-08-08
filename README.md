@@ -1,4 +1,6 @@
-DEMO: https://www.youtube.com/watch?v=RfjaRZzbQEQ
+DEMO:
+
+[![APP DEMO](https://img.youtube.com/vi/RfjaRZzbQEQ/0.jpg)](https://youtu.be/RfjaRZzbQEQ)
 
 
 look for `.envsample` in root directory and add your google api key in `.env` file
